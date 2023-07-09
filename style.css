@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+}
+/* nav section */
+.nav-container{
+    max-height: 100vh;
+    background-image: url(./images/banner/banner3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: right;
+    padding: 300px 230px 253px 845px;
+
+    
+    
+    
+    
+}   
+.btn{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    background-color: tomato;
+}
+
+
+.title{
+    font-size: 50px;
+}
+.title-container{
+    margin-bottom: 25px;
+}
+
+/* banner-section */
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.right{
+    margin-top: 25px;
+    
+}
+
+#right-side{
+    margin-right: 280px;
+}
+ol{
+    list-style: none;
+}
+ol li::before{
+    content: '✅';
+}
+.left{
+    padding: 100px;
+    margin-left: 200px;
+}
+.image{
+    
+    max-width: 70%;
+    max-height: 70%;
+}
+.title-my-plans{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center; 
+    
+}
+.items h2 {
+    margin-top: 15px;
+}
+.items p {
+    margin-top: 15px;
+}
+.my-plans{
+    padding: 10px 200px;
+}
+.photo{
+    height: 300px;
+    /* width: 1140px; */
+    /* text-align: center; */
+    background: url(./images/watch.png), url(./images/gradient1.png);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+    padding:  135px 230px;
+}
+.call{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.Awlays-keep{
+    position: relative;
+    bottom: 35px;
+    left: 0px;
+    color: white;
+}
